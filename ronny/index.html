@@ -75,9 +75,10 @@
                     The UserKey is of type <strong>key</strong> and contains an unique 8char string that is used to identify the user. <br>
                     To access the things that are not allowed you need to pass the <strong>UserKey</strong> in the header of the request. <br>
                     </li>
-                    <li>POST: <a class="fake-a">localhost:8080/api/v1/insert/[tableName]</a> to insert a new record to the table. <BR>
+                    <li>POST: <a class="fake-a">localhost:8080/api/v1/insert/[tableName]</a> to insert a new record to the table. <br>
                     You need to pass the values of the columns in the body of the request, values such as IDs and USERACCESSKEYS are ignored.
                     </li>
+                    <li>GET: <a class="fake-a">localhost:8080/api/v1/execute/[tableName]/[functionName]</a> to execute a function.</li>
                 </ul>
 
                 <h1>Used Libraries</h1>
